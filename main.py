@@ -16,10 +16,8 @@ def todo():
             for i,item in enumerate(add_list,start=1):
                 print(f"{i}. {item}")
         elif dyr=="3":
-            for c in range(len(add_list)):
-                dyrss=int(input("reqemi girin"))
-                if c==dyrss:
-                    add_list.pop(dyrss)
+            dyrss=int(input("reqemi girin"))
+            add_list.pop(dyrss)
         elif dyr=="4":
             print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n✅sistemden cixis edildi Tesekkur")
             break
